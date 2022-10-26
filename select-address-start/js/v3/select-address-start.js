@@ -163,7 +163,7 @@ function show_address_map(){
     });
   }
   
-  show_modal('select-address_form');
+  show_modal('select-address_form', 'select-address_modal');
 
   /*Переопределение переменных после dspjsdf модального окна*/
     in_zone_block = document.querySelector('.select-address-in_zone');

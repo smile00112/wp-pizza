@@ -15,7 +15,7 @@ jQuery(document).ready(function($) {
 	}); 
 });
 
-function show_modal($id){
+function show_modal($id, $baseClass = ''){
 	//if($('#'+$id).lenght)
 		$.fancybox.open({
 			src  : '#'+$id.replace('#', ''),
@@ -34,6 +34,7 @@ function show_modal($id){
 				backFocus: true,
 				trapFocus: true,
 				clickSlide: false,  
+				baseClass: $baseClass,
 			},
 
 			
